@@ -1,0 +1,739 @@
+
+#          title damage energy traversable is_fall
+Interface: plain      0      0           1       0
+Interface: rocks      1      0           1       0
+Interface: mud        0      1           1       0
+Interface: wall      10      1           0       0
+Interface: cliff      0      0           1       1
+Cell:  621      0.00      0.00    456.17  628    0  622    0  plain   wall  cliff   wall
+Object:   OBJ00001    621      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00002    621      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Object:   OBJ00003    621      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Object:   OBJ00004    621      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00005    621      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Cell:  622   1000.00      0.00   -313.67  629    0   57  621   wall   wall   wall   wall
+Object:   OBJ00006    622      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00007    622      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Object:   OBJ00008    622      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Object:   OBJ00009    622      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00010    622      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Cell:   57   2000.00      0.00    946.98  630    0   58  622  plain   wall  plain  cliff
+Object:   OBJ00011     57      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00012     57      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00013     57      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Object:   OBJ00014     57      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00015     57      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Cell:   58   3000.00      0.00    959.83   66    0   59   57  plain   wall  plain  plain
+Object:   OBJ00016     58      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00017     58      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00018     58      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00019     58      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00020     58      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Cell:   59   4000.00      0.00   1000.00   67    0   60   58  plain   wall  plain  plain
+Object:   OBJ00021     59      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00022     59      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00023     59      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00024     59      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00025     59      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Cell:   60   5000.00      0.00   1000.00   68    0   61   59  plain   wall  plain  plain
+Object:   OBJ00026     60      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00027     60      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Object:   OBJ00028     60      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Object:   OBJ00029     60      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Object:   OBJ00030     60      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Cell:   61   6000.00      0.00   1000.00   69    0   62   60    mud   wall  plain  plain
+Object:   OBJ00031     61      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00032     61      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Object:   OBJ00033     61      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00034     61      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00035     61      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Cell:   62   7000.00      0.00   1000.00   70    0   63   61  plain   wall    mud  plain
+Object:   OBJ00036     62      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00037     62      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00038     62      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Object:   OBJ00039     62      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Object:   OBJ00040     62      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Cell:   63   8000.00      0.00   1000.00   71    0   64   62  plain   wall  cliff    mud
+Object:   OBJ00041     63      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00042     63      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00043     63      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00044     63      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00045     63      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Cell:   64   9000.00      0.00    308.89   72    0   65   63   wall   wall  plain   wall
+Object:   OBJ00046     64      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00047     64      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00048     64      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00049     64      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00050     64      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Cell:   65  10000.00      0.00    349.23  433    0    0   64  plain   wall   wall  plain
+Object:   OBJ00051     65      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00052     65      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00053     65      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Object:   OBJ00054     65      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00055     65      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Cell:  628      0.00   1000.00    299.99  274  621  629    0  plain  plain    mud   wall
+Object:   OBJ00056    628      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00057    628      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00058    628      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00059    628      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00060    628      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Cell:  629   1000.00   1000.00    409.16  275  622  630  628  plain  cliff  plain    mud
+Object:   OBJ00061    629      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00062    629      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00063    629      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00064    629      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00065    629      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Cell:  630   2000.00   1000.00    479.38   73   57   66  629  plain  plain  plain  plain
+Object:   OBJ00066    630      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Object:   OBJ00067    630      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00068    630      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Object:   OBJ00069    630      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00070    630      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Cell:   66   3000.00   1000.00    792.54   74   58   67  630  plain  plain  plain  plain
+Object:   OBJ00071     66      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00072     66      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00073     66      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00074     66      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00075     66      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Cell:   67   4000.00   1000.00    843.14   75   59   68   66  plain  plain  plain  plain
+Object:   OBJ00076     67      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00077     67      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00078     67      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00079     67      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00080     67      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Cell:   68   5000.00   1000.00    907.15   76   60   69   67  plain  plain  plain  plain
+Object:   OBJ00081     68      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Object:   OBJ00082     68      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00083     68      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00084     68      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00085     68      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Cell:   69   6000.00   1000.00   1000.00   77   61   70   68  plain    mud  plain  plain
+Object:   OBJ00086     69      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00087     69      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00088     69      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00089     69      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00090     69      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Cell:   70   7000.00   1000.00   1000.00   78   62   71   69  plain  plain  plain  plain
+Object:   OBJ00091     70      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00092     70      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00093     70      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00094     70      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00095     70      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Cell:   71   8000.00   1000.00   1000.00   79   63   72   70  plain  plain  plain  plain
+Object:   OBJ00096     71      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00097     71      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00098     71      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00099     71      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Object:   OBJ00100     71      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Cell:   72   9000.00   1000.00    836.18   80   64  433   71  plain  cliff  plain  plain
+Object:   OBJ00101     72      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00102     72      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00103     72      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00104     72      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00105     72      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Cell:  433  10000.00   1000.00    760.81   81   65    0   72  plain  plain   wall  plain
+Object:   OBJ00106    433      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00107    433      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00108    433      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00109    433      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Object:   OBJ00110    433      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Cell:  274      0.00   2000.00    227.18  283  628  275    0  plain  plain  plain   wall
+Object:   OBJ00111    274      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00112    274      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00113    274      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00114    274      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00115    274      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Cell:  275   1000.00   2000.00    154.39  284  629   73  274  plain  plain  plain  plain
+Object:   OBJ00116    275      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00117    275      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00118    275      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Object:   OBJ00119    275      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00120    275      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Cell:   73   2000.00   2000.00    160.45   82  630   74  275   wall  plain  plain  plain
+Object:   OBJ00121     73      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00122     73      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00123     73      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00124     73      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00125     73      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Cell:   74   3000.00   2000.00    611.59   83   66   75   73  plain  plain  plain  plain
+Object:   OBJ00126     74      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00127     74      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00128     74      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00129     74      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00130     74      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Cell:   75   4000.00   2000.00    649.77   84   67   76   74  plain  plain  plain  plain
+Object:   OBJ00131     75      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00132     75      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00133     75      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00134     75      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Object:   OBJ00135     75      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Cell:   76   5000.00   2000.00    698.86   85   68   77   75  plain  plain  plain  plain
+Object:   OBJ00136     76      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00137     76      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Object:   OBJ00138     76      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00139     76      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Object:   OBJ00140     76      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Cell:   77   6000.00   2000.00    693.61   86   69   78   76  plain  plain  plain  plain
+Object:   OBJ00141     77      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00142     77      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00143     77      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00144     77      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00145     77      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Cell:   78   7000.00   2000.00   1000.00   87   70   79   77  plain  plain  plain  plain
+Object:   OBJ00146     78      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00147     78      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00148     78      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00149     78      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00150     78      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Cell:   79   8000.00   2000.00   1000.00   88   71   80   78  plain  plain  plain  plain
+Object:   OBJ00151     79      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00152     79      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00153     79      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00154     79      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00155     79      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Cell:   80   9000.00   2000.00    669.01   89   72   81   79  plain  plain  plain  plain
+Object:   OBJ00156     80      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00157     80      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Object:   OBJ00158     80      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Object:   OBJ00159     80      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00160     80      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Cell:   81  10000.00   2000.00    734.19   90  433    0   80  plain  plain   wall  plain
+Object:   OBJ00161     81      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Object:   OBJ00162     81      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00163     81      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00164     81      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00165     81      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Cell:  283      0.00   3000.00    243.98  292  274  284    0  plain  plain    mud   wall
+Object:   OBJ00166    283      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00167    283      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00168    283      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Object:   OBJ00169    283      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00170    283      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Cell:  284   1000.00   3000.00    135.33  293  275   82  283  plain  plain   wall    mud
+Object:   OBJ00171    284      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00172    284      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Object:   OBJ00173    284      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Object:   OBJ00174    284      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Object:   OBJ00175    284      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Cell:   82   2000.00   3000.00    686.95   91   73   83  284  plain  cliff  plain  cliff
+Object:   OBJ00176     82      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00177     82      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00178     82      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00179     82      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00180     82      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Cell:   83   3000.00   3000.00    643.66   92   74   84   82  plain  plain  plain  plain
+Object:   OBJ00181     83      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Object:   OBJ00182     83      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00183     83      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00184     83      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00185     83      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Cell:   84   4000.00   3000.00    681.26   93   75   85   83  plain  plain  plain  plain
+Object:   OBJ00186     84      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00187     84      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00188     84      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00189     84      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00190     84      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Cell:   85   5000.00   3000.00    518.04   94   76   86   84  plain  plain  plain  plain
+Object:   OBJ00191     85      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Object:   OBJ00192     85      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00193     85      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Object:   OBJ00194     85      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00195     85      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Cell:   86   6000.00   3000.00    689.19   95   77   87   85  plain  plain  plain  plain
+Object:   OBJ00196     86      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Object:   OBJ00197     86      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00198     86      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Object:   OBJ00199     86      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00200     86      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Cell:   87   7000.00   3000.00   1000.00   96   78   88   86  plain  plain  plain  plain
+Object:   OBJ00201     87      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00202     87      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00203     87      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00204     87      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00205     87      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Cell:   88   8000.00   3000.00   1000.00   97   79   89   87  rocks  plain    mud  plain
+Object:   OBJ00206     88      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00207     88      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00208     88      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00209     88      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00210     88      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Cell:   89   9000.00   3000.00    514.22   98   80   90   88  plain  plain  plain    mud
+Object:   OBJ00211     89      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00212     89      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00213     89      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Object:   OBJ00214     89      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00215     89      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Cell:   90  10000.00   3000.00    792.46   99   81    0   89  plain  plain   wall  plain
+Object:   OBJ00216     90      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00217     90      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00218     90      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00219     90      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00220     90      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Cell:  292      0.00   4000.00    449.02  301  283  293    0  plain  plain    mud   wall
+Object:   OBJ00221    292      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00222    292      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00223    292      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00224    292      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00225    292      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Cell:  293   1000.00   4000.00    275.91    2  284   91  292  plain  plain  plain    mud
+Object:   OBJ00226    293      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00227    293      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00228    293      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00229    293      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00230    293      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Cell:   91   2000.00   4000.00    662.20    3   82   92  293  cliff  plain  plain  plain
+Object:   OBJ00231     91      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00232     91      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00233     91      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00234     91      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00235     91      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Cell:   92   3000.00   4000.00    642.35    4   83   93   91  cliff  plain  plain  plain
+Object:   OBJ00236     92      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00237     92      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00238     92      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00239     92      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00240     92      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Cell:   93   4000.00   4000.00    452.74    5   84   94   92  plain  plain  plain  plain
+Object:   OBJ00241     93      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00242     93      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Object:   OBJ00243     93      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00244     93      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Object:   OBJ00245     93      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Cell:   94   5000.00   4000.00    568.07    6   85   95   93  plain  plain  plain  plain
+Object:   OBJ00246     94      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00247     94      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00248     94      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00249     94      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00250     94      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Cell:   95   6000.00   4000.00    632.46  104   86   96   94  plain  plain    mud  plain
+Object:   OBJ00251     95      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Object:   OBJ00252     95      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00253     95      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00254     95      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00255     95      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Cell:   96   7000.00   4000.00   1000.00  105   87   97   95  plain  plain  plain    mud
+Object:   OBJ00256     96      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Object:   OBJ00257     96      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Object:   OBJ00258     96      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00259     96      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Object:   OBJ00260     96      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Cell:   97   8000.00   4000.00   1000.00  106   88   98   96  plain  rocks  plain  plain
+Object:   OBJ00261     97      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00262     97      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00263     97      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00264     97      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00265     97      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Cell:   98   9000.00   4000.00    548.47  107   89   99   97  plain  plain  plain  plain
+Object:   OBJ00266     98      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00267     98      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00268     98      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00269     98      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00270     98      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Cell:   99  10000.00   4000.00    612.06  108   90    0   98  plain  plain   wall  plain
+Object:   OBJ00271     99      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00272     99      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00273     99      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00274     99      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00275     99      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Cell:  301      0.00   5000.00    181.68    8  292    2    0  plain  plain  plain   wall
+Object:   OBJ00276    301      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Object:   OBJ00277    301      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Object:   OBJ00278    301      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Object:   OBJ00279    301      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00280    301      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Cell:    2   1000.00   5000.00    -92.61    9  293    3  301  plain  plain  plain  plain
+Object:   OBJ00281      2      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Object:   OBJ00282      2      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00283      2      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Object:   OBJ00284      2      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00285      2      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Cell:    3   2000.00   5000.00     39.88   10   91    4    2  plain   wall  plain  plain
+Object:   OBJ00286      3      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00287      3      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00288      3      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Object:   OBJ00289      3      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00290      3      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Cell:    4   3000.00   5000.00     67.05   11   92    5    3  plain   wall  plain  plain
+Object:   OBJ00291      4      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00292      4      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00293      4      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00294      4      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00295      4      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Cell:    5   4000.00   5000.00     36.24   12   93    6    4  plain  plain  plain  plain
+Object:   OBJ00296      5      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00297      5      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00298      5      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00299      5      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00300      5      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Cell:    6   5000.00   5000.00    264.87   13   94  104    5  plain  plain  plain  plain
+Object:   OBJ00301      6      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00302      6      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00303      6      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00304      6      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00305      6      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Cell:  104   6000.00   5000.00    381.60  113   95  105    6  plain  plain  plain  plain
+Object:   OBJ00306    104      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00307    104      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00308    104      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00309    104      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00310    104      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Cell:  105   7000.00   5000.00    538.92  114   96  106  104  plain  plain  plain  plain
+Object:   OBJ00311    105      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00312    105      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00313    105      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00314    105      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00315    105      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Cell:  106   8000.00   5000.00    607.64  115   97  107  105  plain  plain    mud  plain
+Object:   OBJ00316    106      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00317    106      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00318    106      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00319    106      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Object:   OBJ00320    106      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Cell:  107   9000.00   5000.00    304.25  116   98  108  106  plain  plain  rocks    mud
+Object:   OBJ00321    107      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00322    107      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Object:   OBJ00323    107      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00324    107      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00325    107      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Cell:  108  10000.00   5000.00    643.68  117   99    0  107  rocks  plain   wall  rocks
+Object:   OBJ00326    108      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00327    108      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Object:   OBJ00328    108      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00329    108      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00330    108      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Cell:    8      0.00   6000.00    -13.32   15  301    9    0  plain  plain  plain   wall
+Object:   OBJ00331      8      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00332      8      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00333      8      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00334      8      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00335      8      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Cell:    9   1000.00   6000.00    -71.74   16    2   10    8  plain  plain  plain  plain
+Object:   OBJ00336      9      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00337      9      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00338      9      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00339      9      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00340      9      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Cell:   10   2000.00   6000.00    139.10   17    3   11    9  plain  plain  plain  plain
+Object:   OBJ00341     10      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00342     10      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Object:   OBJ00343     10      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00344     10      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00345     10      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Cell:   11   3000.00   6000.00     34.95   18    4   12   10  plain  plain  plain  plain
+Object:   OBJ00346     11      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00347     11      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00348     11      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Object:   OBJ00349     11      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00350     11      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Cell:   12   4000.00   6000.00    155.93   19    5   13   11  plain  plain  plain  plain
+Object:   OBJ00351     12      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00352     12      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00353     12      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00354     12      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Object:   OBJ00355     12      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Cell:   13   5000.00   6000.00    471.20  121    6  113   12  plain  plain  plain  plain
+Object:   OBJ00356     13      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00357     13      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Object:   OBJ00358     13      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00359     13      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00360     13      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Cell:  113   6000.00   6000.00    355.99  122  104  114   13  plain  plain  plain  plain
+Object:   OBJ00361    113      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00362    113      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00363    113      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00364    113      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Object:   OBJ00365    113      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Cell:  114   7000.00   6000.00    599.10  123  105  115  113  cliff  plain  plain  plain
+Object:   OBJ00366    114      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00367    114      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00368    114      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Object:   OBJ00369    114      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00370    114      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Cell:  115   8000.00   6000.00    584.78  124  106  116  114  plain  plain  plain  plain
+Object:   OBJ00371    115      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00372    115      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00373    115      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Object:   OBJ00374    115      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00375    115      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Cell:  116   9000.00   6000.00    260.17  160  107  117  115  plain  plain  plain  plain
+Object:   OBJ00376    116      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Object:   OBJ00377    116      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00378    116      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00379    116      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00380    116      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Cell:  117  10000.00   6000.00    609.73  161  108    0  116  plain  rocks   wall  plain
+Object:   OBJ00381    117      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00382    117      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00383    117      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00384    117      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00385    117      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Cell:   15      0.00   7000.00    -34.04   21    8   16    0  plain  plain  plain   wall
+Object:   OBJ00386     15      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00387     15      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00388     15      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00389     15      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00390     15      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Cell:   16   1000.00   7000.00   -142.05   22    9   17   15  plain  plain  plain  plain
+Object:   OBJ00391     16      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00392     16      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00393     16      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Object:   OBJ00394     16      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00395     16      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Cell:   17   2000.00   7000.00    -39.11   23   10   18   16  plain  plain  plain  plain
+Object:   OBJ00396     17      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Object:   OBJ00397     17      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00398     17      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Object:   OBJ00399     17      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00400     17      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Cell:   18   3000.00   7000.00    -29.85   24   11   19   17  plain  plain  plain  plain
+Object:   OBJ00401     18      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00402     18      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00403     18      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00404     18      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00405     18      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Cell:   19   4000.00   7000.00     27.73   25   12  121   18  plain  plain  plain  plain
+Object:   OBJ00406     19      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00407     19      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00408     19      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Object:   OBJ00409     19      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00410     19      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Cell:  121   5000.00   7000.00    204.46   26   13  122   19  plain  plain  plain  plain
+Object:   OBJ00411    121      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Object:   OBJ00412    121      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00413    121      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00414    121      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00415    121      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Cell:  122   6000.00   7000.00    157.72  166  113  123  121    mud  plain  plain  plain
+Object:   OBJ00416    122      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00417    122      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00418    122      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00419    122      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00420    122      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Cell:  123   7000.00   7000.00   -109.50  167  114  124  122   wall   wall  plain  plain
+Object:   OBJ00421    123      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00422    123      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00423    123      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00424    123      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Object:   OBJ00425    123      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Cell:  124   8000.00   7000.00    213.21  168  115  160  123  plain  plain  plain  plain
+Object:   OBJ00426    124      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00427    124      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Object:   OBJ00428    124      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Object:   OBJ00429    124      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00430    124      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Cell:  160   9000.00   7000.00    492.76  169  116  161  124  cliff  plain  plain  plain
+Object:   OBJ00431    160      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Object:   OBJ00432    160      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00433    160      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Object:   OBJ00434    160      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00435    160      dPs   -50.00    mineral     1.00     1.00        dayglo-orange    pyramid      small             
+Cell:  161  10000.00   7000.00    558.29  170  117    0  160  cliff  plain   wall  plain
+Object:   OBJ00436    161      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00437    161      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00438    161      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00439    161      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00440    161      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Cell:   21      0.00   8000.00    251.77   28   15   22    0  plain  plain  plain   wall
+Object:   OBJ00441     21      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00442     21      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00443     21      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00444     21      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00445     21      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Cell:   22   1000.00   8000.00      8.89   29   16   23   21  plain  plain  plain  plain
+Object:   OBJ00446     22      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Object:   OBJ00447     22      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00448     22      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00449     22      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Object:   OBJ00450     22      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Cell:   23   2000.00   8000.00    -27.07   30   17   24   22  plain  plain  plain  plain
+Object:   OBJ00451     23      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00452     23      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00453     23      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Object:   OBJ00454     23      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00455     23      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Cell:   24   3000.00   8000.00      7.91   31   18   25   23  plain  plain  plain  plain
+Object:   OBJ00456     24      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00457     24      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00458     24      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00459     24      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00460     24      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Cell:   25   4000.00   8000.00     87.72   32   19   26   24  plain  plain  plain  plain
+Object:   OBJ00461     25      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00462     25      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00463     25      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00464     25      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00465     25      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Cell:   26   5000.00   8000.00    190.11   33  121  166   25  plain  plain  plain  plain
+Object:   OBJ00466     26      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00467     26      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00468     26      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00469     26      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00470     26      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Cell:  166   6000.00   8000.00    440.19  175  122  167   26  plain    mud  plain  plain
+Object:   OBJ00471    166      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00472    166      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00473    166      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Object:   OBJ00474    166      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00475    166      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Cell:  167   7000.00   8000.00    455.04  176  123  168  166  plain  cliff  plain  plain
+Object:   OBJ00476    167      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00477    167      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Object:   OBJ00478    167      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Object:   OBJ00479    167      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00480    167      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Cell:  168   8000.00   8000.00    501.19  177  124  169  167  plain  plain  cliff  plain
+Object:   OBJ00481    168      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00482    168      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Object:   OBJ00483    168      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00484    168      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00485    168      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Cell:  169   9000.00   8000.00    -97.56  178  160  170  168  plain   wall  plain   wall
+Object:   OBJ00486    169      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00487    169      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00488    169      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00489    169      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00490    169      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Cell:  170  10000.00   8000.00   -181.83  179  161    0  169  plain   wall   wall  plain
+Object:   OBJ00491    170      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Object:   OBJ00492    170      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00493    170      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00494    170      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00495    170      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Cell:   28      0.00   9000.00    335.90   35   21   29    0  plain  plain  plain   wall
+Object:   OBJ00496     28      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00497     28      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00498     28      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00499     28      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00500     28      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Cell:   29   1000.00   9000.00    123.31   36   22   30   28  plain  plain  plain  plain
+Object:   OBJ00501     29      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00502     29      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00503     29      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00504     29      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00505     29      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Cell:   30   2000.00   9000.00    -26.58   37   23   31   29  plain  plain  plain  plain
+Object:   OBJ00506     30      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Object:   OBJ00507     30      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00508     30      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Object:   OBJ00509     30      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Object:   OBJ00510     30      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Cell:   31   3000.00   9000.00     95.31   38   24   32   30  plain  plain  plain  plain
+Object:   OBJ00511     31      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00512     31      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00513     31      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00514     31      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Object:   OBJ00515     31      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Cell:   32   4000.00   9000.00     33.05   39   25   33   31  plain  plain  plain  plain
+Object:   OBJ00516     32      OCs   -50.00    mineral     1.00     1.00               orchid   cylinder      small             
+Object:   OBJ00517     32      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00518     32      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00519     32      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00520     32      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Cell:   33   5000.00   9000.00    181.84   40   26  175   32  plain  plain  plain  plain
+Object:   OBJ00521     33      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00522     33      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00523     33      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00524     33      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Object:   OBJ00525     33      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Cell:  175   6000.00   9000.00    305.30  184  166  176   33  plain  plain  plain  plain
+Object:   OBJ00526    175      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00527    175      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00528    175      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00529    175      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00530    175      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Cell:  176   7000.00   9000.00    184.89  185  167  177  175  plain  plain  plain  plain
+Object:   OBJ00531    176      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Object:   OBJ00532    176      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00533    176      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Object:   OBJ00534    176      eCs   -50.00    mineral     1.00     1.00            steelblue   cylinder      small             
+Object:   OBJ00535    176      dCm    50.00    mineral     5.00    10.00        dayglo-orange   cylinder     medium             
+Cell:  177   8000.00   9000.00    171.07  186  168  178  176  plain  plain  plain  plain
+Object:   OBJ00536    177      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00537    177      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00538    177      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00539    177      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00540    177      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Cell:  178   9000.00   9000.00   -166.83  187  169  179  177  plain  plain  plain  plain
+Object:   OBJ00541    178      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00542    178      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00543    178      d4m   -50.00     animal     5.00    10.00        dayglo-orange  quadruped     medium             
+Object:   OBJ00544    178      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00545    178      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Cell:  179  10000.00   9000.00     25.17  188  170    0  178  plain  plain   wall  plain
+Object:   OBJ00546    179      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00547    179      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Object:   OBJ00548    179      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Object:   OBJ00549    179      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00550    179      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Cell:   35      0.00  10000.00    393.49    0   28   36    0   wall  plain    mud   wall
+Object:   OBJ00551     35      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00552     35      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Object:   OBJ00553     35      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Object:   OBJ00554     35      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00555     35      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Cell:   36   1000.00  10000.00    183.57    0   29   37   35   wall  plain  plain    mud
+Object:   OBJ00556     36      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00557     36      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00558     36      e4t   -50.00     animal     0.10     0.10            steelblue  quadruped       tiny             
+Object:   OBJ00559     36      dPt     1.00    mineral     0.10     0.10        dayglo-orange    pyramid       tiny             
+Object:   OBJ00560     36      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Cell:   37   2000.00  10000.00    185.31    0   30   38   36   wall  plain  plain  plain
+Object:   OBJ00561     37      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00562     37      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00563     37      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Object:   OBJ00564     37      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00565     37      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Cell:   38   3000.00  10000.00     35.05    0   31   39   37   wall  plain  plain  plain
+Object:   OBJ00566     38      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00567     38      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00568     38      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00569     38      d4s   -50.00     animal     1.00     1.00        dayglo-orange  quadruped      small             
+Object:   OBJ00570     38      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Cell:   39   4000.00  10000.00     -3.25    0   32   40   38   wall  plain  plain  plain
+Object:   OBJ00571     39      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00572     39      eCm   -50.00    mineral     5.00    10.00            steelblue   cylinder     medium             
+Object:   OBJ00573     39      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Object:   OBJ00574     39      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00575     39      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Cell:   40   5000.00  10000.00     15.98    0   33  184   39   wall  plain    mud  plain
+Object:   OBJ00576     40      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00577     40      OPm   -50.00    mineral     5.00    10.00               orchid    pyramid     medium             
+Object:   OBJ00578     40      e4s   -50.00     animal     1.00     1.00            steelblue  quadruped      small             
+Object:   OBJ00579     40      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Object:   OBJ00580     40      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Cell:  184   6000.00  10000.00    -11.82    0  175  185   40   wall  plain    mud    mud
+Object:   OBJ00581    184      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00582    184      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00583    184      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00584    184      OPt   -50.00    mineral     0.10     0.10               orchid    pyramid       tiny             
+Object:   OBJ00585    184      OCm   -50.00    mineral     5.00    10.00               orchid   cylinder     medium             
+Cell:  185   7000.00  10000.00     85.49    0  176  186  184   wall  plain  plain    mud
+Object:   OBJ00586    185      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Object:   OBJ00587    185      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Object:   OBJ00588    185      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00589    185      d4t   -50.00     animal     0.10     0.10        dayglo-orange  quadruped       tiny             
+Object:   OBJ00590    185      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Cell:  186   8000.00  10000.00     54.74    0  177  187  185   wall  plain  plain  plain
+Object:   OBJ00591    186      ePt   -50.00    mineral     0.10     0.10            steelblue    pyramid       tiny             
+Object:   OBJ00592    186      dPm   -50.00    mineral     5.00    10.00        dayglo-orange    pyramid     medium             
+Object:   OBJ00593    186      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00594    186      O4s   -50.00     animal     1.00     1.00               orchid  quadruped      small             
+Object:   OBJ00595    186      eCt    10.00    mineral     0.10     0.10            steelblue   cylinder       tiny             
+Cell:  187   9000.00  10000.00   -388.43    0  178  188  186   wall  plain  rocks  plain
+Object:   OBJ00596    187      O4t    25.00     animal     0.10     0.10               orchid  quadruped       tiny             
+Object:   OBJ00597    187      dCt   -50.00    mineral     0.10     0.10        dayglo-orange   cylinder       tiny             
+Object:   OBJ00598    187      O4m   -50.00     animal     5.00    10.00               orchid  quadruped     medium             
+Object:   OBJ00599    187      OPs   -50.00    mineral     1.00     1.00               orchid    pyramid      small             
+Object:   OBJ00600    187      OCt   -50.00    mineral     0.10     0.10               orchid   cylinder       tiny             
+Cell:  188  10000.00  10000.00    -12.55    0  179    0  187   wall  plain   wall  rocks
+Object:   OBJ00601    188      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00602    188      ePm   -50.00    mineral     5.00    10.00            steelblue    pyramid     medium             
+Object:   OBJ00603    188      dCs   -50.00    mineral     1.00     1.00        dayglo-orange   cylinder      small             
+Object:   OBJ00604    188      ePs   -50.00    mineral     1.00     1.00            steelblue    pyramid      small             
+Object:   OBJ00605    188      e4m   -50.00     animal     5.00    10.00            steelblue  quadruped     medium             
+Base: 168
+Base: 96
+Base: 80
+Base: 124
+Goal: 38
+

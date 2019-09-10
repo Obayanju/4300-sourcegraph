@@ -1,0 +1,42 @@
+#!/bin/bash
+
+#
+# Run this in ai/bin/00bin-o
+#
+if [ ! -x JetanServer ]; then
+    echo "JetanServer is missing"
+    exit 1
+fi
+if [ ! -x JetanDisplay ]; then
+    echo "JetanDisplay is missing"
+    exit 1
+fi
+if [ ! -x JetanAgent ]; then
+    echo "JetanAgent is missing"
+    exit 1
+fi
+
+# Launch the game server
+./JetanServer \
+    --sleep 10 \
+    --delay 1 \
+    --steps 100 \
+    --agents 2 \
+    --displays 1 \
+    --tourney 0 \
+    --runs 1 \
+    >server.log 2>server.err &
+echo "Waiting for server to get started"
+sleep 2
+
+# Launch the display
+./JetanDisplay >display.log 2>display.err &
+
+# Launch random as first player
+./JetanAgent --agent r --trace 0 >agent1.log 2>agent1.err &
+
+# Launch random as second player
+./JetanAgent --agent r --trace 0 >agent2.log 2>agent2.err &
+
+
+

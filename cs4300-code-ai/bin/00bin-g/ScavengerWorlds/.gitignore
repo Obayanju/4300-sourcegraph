@@ -1,0 +1,15 @@
+#
+# get rid of unexpected files
+#
+*
+
+# except, keep .gitignore
+!.gitignore
+
+# keep known files and directories
+!*.txt
+!worlds-2012/
+!worlds-2013/
+!worlds-2014/
+!worlds-2015/
+!worlds-2016/

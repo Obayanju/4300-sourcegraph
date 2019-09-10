@@ -1,0 +1,6 @@
+*~
+*.o
+.depend*
+00obj*
+third
+unit-test-prog

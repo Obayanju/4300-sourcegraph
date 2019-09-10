@@ -1,0 +1,24 @@
+#
+# get rid of unexpected files
+#
+*
+
+# except, keep .gitignore
+!.gitignore
+
+#
+# keep all header files
+#
+!*.h
+
+# keep expected directories
+!Abalone/
+!Candy/
+!CCheckers/
+!Mancala/
+!Obstacle/
+!Scavenger/
+!TicTacToe/
+!Wumpus/
+!XY/
+
