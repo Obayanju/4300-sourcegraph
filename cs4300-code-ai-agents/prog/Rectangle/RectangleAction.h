@@ -4,31 +4,30 @@
 #include "ai_search.h"
 #include "RectangleModel.h"
 
-namespace ai {
-  namespace rectangle {
+namespace ai
+{
+namespace rectangle
+{
 
-    class Action : public ai::Search::Action {
-    public:
+class Action : public ai::Search::Action
+{
+public:
+  Action(const Move &move);
+  virtual ~Action();
+  virtual void Display() const;
 
-      Action( const Move& move );
-      virtual ~Action( );
-      virtual void Display( ) const;
-      
-      const Move& getMove( ) const;
-      
-    protected:
-      Move mMove;
-      
-    private:
-      
-    };
+  const Move &getMove() const;
 
-  }
-}
+protected:
+  Move mMove;
 
-std::ostream& operator<<( std::ostream& os, const ai::rectangle::Action& action );
+private:
+};
 
+} // namespace rectangle
+} // namespace ai
 
+std::ostream &operator<<(std::ostream &os, const ai::rectangle::Action &action);
 
 #endif /* _RECTANGLEACTION_H_ */
 /* Local Variables: */

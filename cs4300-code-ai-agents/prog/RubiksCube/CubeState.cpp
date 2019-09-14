@@ -1,15 +1,15 @@
-#include "RectangleState.h"
+#include "CubeState.h"
 #include "ai_search.h"
 #include <iostream>
 #include <sstream>
 
 namespace ai
 {
-namespace rectangle
+namespace rubiks
 {
 
-State::State(const Model &model)
-    : mModel(model)
+State::State(const Cube &cube)
+    : mCube(cube)
 {
 }
 
@@ -60,7 +60,7 @@ Model &State::getModel()
   return mModel;
 }
 
-} // namespace rectangle
+} // namespace rubiks
 } // namespace ai
 
 std::ostream &operator<<(std::ostream &os, const ai::rectangle::State &state)

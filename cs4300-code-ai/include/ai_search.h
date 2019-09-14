@@ -12,6 +12,7 @@
 #include <Search/DFFrontier.h>
 #include <Search/DLFrontier.h>
 #include <Search/AStarLimitedFrontier.h>
+#include <Search/BFLimitedFrontier.h>
 #include <Search/GreedyFrontier.h>
 #include <Search/AStarFrontier.h>
 #include <Search/Solution.h>

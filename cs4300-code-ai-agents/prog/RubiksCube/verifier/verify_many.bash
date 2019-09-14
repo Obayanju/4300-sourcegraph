@@ -8,7 +8,7 @@ function solve_one( ) {
 
 function run_one( ) {
     local shuffle_count="$1"
-    local output=$(tempfile)
+    local output=$(mktemp)
     solve_one $shuffle_count >& $output
     
     local time=$( egrep ^real $output | awk '{ print $2; }' )

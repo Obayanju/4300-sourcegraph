@@ -19,6 +19,7 @@ SEARCH_SRC := \
 		GreedyFrontier.cpp \
 		AStarFrontier.cpp \
 		AStarLimitedFrontier.cpp \
+		BFLimitedFrontier.cpp \
 	Solution.cpp \
 	Algorithm.cpp \
 		Tree.cpp \
@@ -39,6 +40,7 @@ SEARCH_HEADERS := \
 		GreedyFrontier.h \
 		AStarFrontier.h \
 		AStarLimitedFrontier.h \
+		BFLimitedFrontier.h \
 	Solution.h \
 	Algorithm.h \
 		Tree.h \
