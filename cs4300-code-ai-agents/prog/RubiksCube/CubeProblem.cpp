@@ -2,6 +2,7 @@
 #include "CubeState.h"
 #include "CubeAction.h"
 #include "CubeAppData.h"
+#include "CubeModel.h"
 #include <sstream>
 
 namespace ai
@@ -10,7 +11,7 @@ namespace rubiks
 {
 
 Problem::Problem(ai::Search::State *initial_state_in, const std::vector<Cube> &goal_cube_in)
-    : ai::Search::Problem(initial_state_in)
+    : ai::Search::Problem(initial_state_in), mGoalCubeIn(goal_cube_in)
 {
   // empty
 }
@@ -22,79 +23,56 @@ Problem::~Problem()
 
 bool Problem::GoalTest(const ai::Search::State *const state_in) const
 {
-
-  // const State *const state = dynamic_cast<const State *const>(state_in);
-
-  // return state->getModel().IsSolved();
+  const State *const state = dynamic_cast<const State *const>(state_in);
+  for (auto & goal_cube : mGoalCubeIn)
+  {
+    if (state->getModel() == goal_cube)
+    {
+      return true;
+    }
+  }
+  return false;
 }
 
+// used to generate the list of legal actions given a particular state
 std::vector<ai::Search::Action *> Problem::Actions(const ai::Search::State *const state_in)
 {
   // const State *const rs1 = dynamic_cast<const State *const>(state_in);
-  // std::vector<ai::Search::Action *> actions;
-  // Model model(rs1->getModel());
+  std::vector<ai::Search::Action *> actions;
 
-  // unsigned int i;
-  // int r, f;
-  // int x, y;
+  for (int i = Move::M_U; i <= Move::M_DP; i++)
+  {
+    Move bm = static_cast<Move::BasicMove>(i);
+    Action *a = new Action(bm);
+    actions.push_back(a);
+  }
 
-  // /* Consider all placements of the first unplaced piece */
-  // for (i = 0; i < model.GetNumPieces(); i++)
-  // {
-  //   if (model.GetPiece(i).placed)
-  //   {
-  //     continue;
-  //   }
-  //   for (r = 0; r < model.GetPiece(i).max_rotation; r++)
-  //   {
-  //     for (f = 0; f < model.GetPiece(i).max_flip; f++)
-  //     {
-  //       for (x = 0; x < model.GetWidth(); x++)
-  //       {
-  //         for (y = 0; y < model.GetHeight(); y++)
-  //         {
-  //           // only use action if place will actually place
-  //           Model tmp_model(model);
-  //           Move move(i, r, f, x, y);
-  //           if (tmp_model.ApplyMove(move))
-  //           {
-  //             actions.push_back(new Action(move));
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  //   // only use the first piece that hasn't been placed yet.
-  //   break;
-  // }
-  //
-  // return actions;
+  return actions;
 }
 
+// used to generate the resulting state for applying an action in a given state
 ai::Search::State *Problem::Result(const ai::Search::State *const state_in, const ai::Search::Action *const action_in)
 {
-  // const State *const state = dynamic_cast<const State *const>(state_in);
-  // const Action *const action = dynamic_cast<const Action *const>(action_in);
+  const State *const state = dynamic_cast<const State *const>(state_in);
+  const Action *const action = dynamic_cast<const Action *const>(action_in);
 
-  // Model model = state->getModel();
-  // if (!model.ApplyMove(action->getMove()))
-  // {
-  //   std::stringstream ss;
-  //   ss << "Unexpected result from ApplyMove in Problem::Result()";
-  //   throw Exception(ss.str());
-  // }
-  // return new State(model);
+  Cube model;
+  model.applyMove(action->getMove(), state->getModel());
+  return new State(model);
 }
 
 double Problem::StepCost(const ai::Search::State *const state1_in,
                          const ai::Search::Action *const action_in,
                          const ai::Search::State *const state2_in) const
 {
-  // const Action *const action = dynamic_cast<const Action *const>(action_in);
-  // return action->getMove().getCost();
+  const Action *const action = dynamic_cast<const Action *const>(action_in);
+  return action->getMove().getCost();
 }
 
-void setAllowedMoves(const std::map<std::string, Move> &allowed_moves) {}
-
+double Problem::Heuristic(const ai::Search::State *const state_in) const {
+  const State *const state = dynamic_cast<const State *const>(state_in);
+  Cube cube = state->getModel();
+  std::vector<Facelet> facelets = cube.getFacelets();
+}
 } // namespace rubiks
 } // namespace ai

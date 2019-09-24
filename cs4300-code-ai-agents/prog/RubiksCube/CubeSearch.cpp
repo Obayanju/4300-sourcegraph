@@ -12,6 +12,7 @@ namespace ai
 namespace rubiks
 {
 
+//  create a frontier based on the keyword the user used
 static int create_search_frontier(AppData &data, ai::Search::Frontier **frontier)
 {
   if (data.words.size() < 3)
@@ -116,7 +117,6 @@ static int search_init(AppData &data, ai::Search::Algorithm **algorithm)
 
 static int search_aux(AppData &data)
 {
-  // data.os << "You must implement this function.  You may consider borrowing large chunks of code from the RectangleSolver program." << std::endl;
   int max_iterations = 1;
   if (data.words.size() > 2 && data.words[2] == "ids")
   {
@@ -192,12 +192,8 @@ static int search_aux(AppData &data)
 
           if (data.config.applySolution())
           {
-            if (!data.cube.applyMove(action->getMove(), cube))
-            {
-              std::stringstream ss;
-              ss << "Unexpected result from ApplyMove in search_aux( )";
-              throw Exception(ss.str());
-            }
+            Cube tmp = data.cube;
+            data.cube.applyMove(action->getMove(), tmp);
           }
           cost += action->getMove().getCost();
         }
@@ -210,7 +206,7 @@ static int search_aux(AppData &data)
       }
       if (data.config.displaySolutionHuman())
       {
-        data.os << "place " << moves.str() << std::endl;
+        data.os << "rotate " << moves.str() << std::endl;
         data.os << "Cost: " << cost << std::endl;
         data.os << "Generated " << algorithm->GetNumberNodesGenerated() << " nodes." << std::endl;
         data.os << "Maximum frontier size " << algorithm->GetMaxNodesStored() << " nodes." << std::endl;
@@ -252,7 +248,7 @@ static int search_aux(AppData &data)
     {
       machine_stream << "T " << generated_nodes << " " << stored_nodes << " ";
       machine_stream << cost << " ";
-      machine_stream << "place " << moves.str();
+      machine_stream << "rotate " << moves.str();
     }
     data.os << machine_stream.str() << std::endl;
   }

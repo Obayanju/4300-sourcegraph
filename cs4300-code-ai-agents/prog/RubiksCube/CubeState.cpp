@@ -8,8 +8,8 @@ namespace ai
 namespace rubiks
 {
 
-State::State(const Cube &cube)
-    : mCube(cube)
+State::State(const Cube &model)
+    : mModel(model)
 {
 }
 
@@ -24,7 +24,8 @@ State::~State()
 
 void State::Display() const
 {
-  std::cout << mModel.DisplayString() << std::endl;
+  mModel.oneWordDisplay(std::cout);
+  std::cout << std::endl;
 }
 
 bool State::IsEqual(const ai::Search::State *const state_in) const
@@ -50,12 +51,12 @@ State &State::operator=(const State &rhs)
   return *this;
 }
 
-const Model &State::getModel() const
+const Cube &State::getModel() const
 {
   return mModel;
 }
 
-Model &State::getModel()
+Cube &State::getModel()
 {
   return mModel;
 }
@@ -63,8 +64,8 @@ Model &State::getModel()
 } // namespace rubiks
 } // namespace ai
 
-std::ostream &operator<<(std::ostream &os, const ai::rectangle::State &state)
+std::ostream &operator<<(std::ostream &os, const ai::rubiks::State &state)
 {
-  os << state.getModel().DisplayString();
+  state.getModel().oneWordDisplay(os);
   return os;
 }

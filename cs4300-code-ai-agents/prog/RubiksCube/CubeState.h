@@ -11,7 +11,7 @@ namespace rubiks
 class State : public ai::Search::State
 {
 public:
-  State(const Cube &cube);
+  State(const Cube &model);
   State(const State &rhs);
   virtual ~State();
   virtual void Display() const;
@@ -21,8 +21,11 @@ public:
   bool operator==(const State &rhs) const;
   State &operator=(const State &rhs);
 
+  const Cube &getModel() const;
+  Cube &getModel();
+
 protected:
-  Cube mCube;
+  Cube mModel;
 
 private:
 };

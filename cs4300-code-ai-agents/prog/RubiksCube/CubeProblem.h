@@ -2,6 +2,7 @@
 #define _CUBEPROBLEM_H_
 
 #include "ai_search.h"
+#include "CubeModel.h"
 
 namespace ai
 {
@@ -21,7 +22,11 @@ public:
   virtual double StepCost(const ai::Search::State *const state1_in,
                           const ai::Search::Action *const action_in,
                           const ai::Search::State *const state2_in) const;
-  virtual void setAllowedMoves(const std::map<std::string, Move> &allowed_moves);
+  virtual double Heuristic(const ai::Search::State * const state_in) const;
+  // virtual void setAllowedMoves(const std::map<std::string, Move> &allowed_moves);
+
+protected:
+  std::vector<Cube> mGoalCubeIn;
 };
 
 } // namespace rubiks
